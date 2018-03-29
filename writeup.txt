@@ -1,0 +1,14 @@
+Discussed some ideas with Prakhar Ganesh(2015CS10245), but none of them used in the final code
+Borrowed compile script from Suyash Agarwal
+discussed about batch sizes and faster running on gpu with Aman Agarwal (2015CS10210)
+
+
+URL for models and other support files ->
+DICT_URL="https://owncloud.iitd.ac.in/owncloud/index.php/s/tjcJtCiEoxg3q99/download"
+MODEL_URL="https://owncloud.iitd.ac.in/owncloud/index.php/s/cSp2XTc2aRT7EmL/download"
+
+
+Various methods were tried and tested on the dev set
+gensim doc2vec + SVM => .49
+heirarchy lstm (10000) examples ==> 0.47
+finally bidirectional LSTM used ==> 0.72
